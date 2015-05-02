@@ -24,11 +24,11 @@ filetype on
 
 " --- My personal settings:
 set noswapfile            " No intermidiate files are used when saving
-au BufReadPost *.get set syntax=perl
+"au BufReadPost *.get set syntax=perl
 "au BufReadPost *.tt set syntax=html
-au BufRead,BufNewFile *.tt set filetype=tt
-au! Syntax tt source ~/tt2html.vim
-hi link htmlLink NONE
+"au BufRead,BufNewFile *.tt set filetype=tt
+"au! Syntax tt source ~/tt2html.vim
+"hi link htmlLink NONE
 " ---
 
 " --- Indenting

@@ -11,7 +11,7 @@
         color = auto
 [user]
         name = Angela Wang
-        email = angela@eventful-inc.com
+        email = angela@cordial.io
 [alias]
         clg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr)%Creset'
         type = cat-file -t
