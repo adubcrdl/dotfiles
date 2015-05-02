@@ -1,0 +1,20 @@
+[interactive]
+        singlekey = true
+[core]
+        preloadindex = true
+        autocrlf = input
+[rerere]
+        enabled = true
+[color]
+        ui = auto
+[diff]
+        color = auto
+[user]
+        name = Angela Wang
+        email = angela@eventful-inc.com
+[alias]
+        clg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr)%Creset'
+        type = cat-file -t
+        dump = cat-file -p
+        branchd = branch -D
+        branchv = branch -v -v
